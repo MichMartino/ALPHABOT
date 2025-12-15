@@ -49,7 +49,7 @@ def premi(key):
     #Gestione tasti speciali (come ESC)
     if key == keyboard.Key.esc:
         print("\nUscita...")
-        invia('x')
+        invia('exit')
         return False  #Stop listener
 
 def rilascia(key):

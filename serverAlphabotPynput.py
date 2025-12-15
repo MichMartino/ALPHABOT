@@ -44,6 +44,7 @@ while True:
         bot.right()
     elif data == 'x':      #stop
         bot.stop()
+    #Parte di gestione velocità con client senza pynput
     elif data.startswith('speed '):
         value = int(data.split()[1])
         bot.setPWMA(value)

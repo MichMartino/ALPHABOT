@@ -17,7 +17,7 @@ print("  W = Avanti")
 print("  S = Indietro")
 print("  A = Sinistra")
 print("  D = Destra")
-print("  Q = Stop")
+print("  X = Stop")
 print("  ESC = Esci")
 print("\nPremi i tasti per controllare l'AlphaBot...\n")
 
@@ -28,7 +28,7 @@ def invia(comando):
 
 def premi(key):
     
-    #Gestione tasti carattere (w, a, s, d, q)
+    #Gestione tasti carattere (w, a, s, d, x)
     if hasattr(key, 'char') and key.char:
         tasto = key.char.lower()
         print(f"Tasto premuto: {tasto}")
@@ -41,8 +41,8 @@ def premi(key):
             invia('a')
         elif tasto == 'd':
             invia('d')
-        elif tasto == 'q':
-            invia('q')
+        elif tasto == 'x':
+            invia('x')
         else:
             print(f"Tasto non mappato")
     
@@ -59,7 +59,7 @@ def rilascia(key):
         
         #Quando rilasci un tasto di movimento, invia stop
         if tasto in ['w', 's', 'a', 'd']:
-            invia('q')  #Stop automatico al rilascio
+            invia('x')  #Stop automatico al rilascio
 
 #Ascoltatore tastiera con le due funzioni
 print("Ascoltatore tastiera attivo...\n")

@@ -26,6 +26,9 @@ pentamestre:
   database, il login e la registrazione di ogni utente che può comandare l'alphabot e
   l'implementazione dei sensori, visualizzati in un'altra pagina differente da quella dei controlli
 
+le versioni precedenti: progettoMovimentoAlphabotV0, alphabotConLoginV0, alphabotLoginDatabaseV0, 
+AlphabotLoginDbSensoriV0
+
 
 altri file sviluppati:
 

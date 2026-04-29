@@ -1,0 +1,19 @@
+QUESTO FILE DOCUMENTA LE VERSIONI DEI PROGETTI CONTENUTE NELLA REPOSITORY
+
+primo_timestre:
+4 progetti completi totali, 2 server e 2 client
+
+- serverAlphabotSensori, è il server che permette il movimento dell'alphabot con implementazione
+  di sensori frontali (Per ostacoli)
+
+- serverAlphabotPynput, è il server che permette l'utilizzo di pynput per l'invio dei comandi 
+  all'alphabot
+
+- clientAlphabotSensori, il client che fa coppia con il server sensori, creato per l'implemento
+  dei sensori
+
+- clientAlphabotPynput, client creato per lo scopo di utilizzatre pynput per inviare i comandi 
+  all'alphabot
+
+pentamestre:
+2 progetti completi, con un totale di 4 versioni oltre che la finale

@@ -1,6 +1,6 @@
 QUESTO FILE DOCUMENTA LE VERSIONI DEI PROGETTI CONTENUTE NELLA REPOSITORY
 
-primo_timestre:
+primo_trimestre:
 4 progetti completi totali, 2 server e 2 client
 
 - serverAlphabotSensori, è il server che permette il movimento dell'alphabot con implementazione
@@ -9,13 +9,29 @@ primo_timestre:
 - serverAlphabotPynput, è il server che permette l'utilizzo di pynput per l'invio dei comandi 
   all'alphabot
 
-- clientAlphabotSensori, il client che fa coppia con il server sensori, creato per l'implemento
+- clientAlphabotSensori, il client che fa coppia con il server sensori, creato per l'implementazione
   dei sensori
 
-- clientAlphabotPynput, client creato per lo scopo di utilizzatre pynput per inviare i comandi 
+- clientAlphabotPynput, client creato per lo scopo di utilizzare pynput per inviare i comandi 
   all'alphabot
 
 pentamestre:
-2 progetti completi, con un totale di 4 versioni oltre che la finale
+2 progetti completi, in aggiunta, 4 versioni precedenti
+
+- progettoMovimentoAlphabotV1, versione finale del primo progetto per il movimento dell'alphabot 
+  che richiedeva l'uso di una webApp, in questo caso si testano solo i print
+
+- alphabotLoginDBSE_completo_v0, versione finale del secondo progetto per il movimento dell'alphabot
+  che richiedeva: il movimento del robot tramite una webApp, la gestione dei comandi tramite un
+  database, il login e la registrazione di ogni utente che può comandare l'alphabot e
+  l'implementazione dei sensori, visualizzati in un'altra pagina differente da quella dei controlli
+
 
 altri file sviluppati:
+
+- comandi.db, il database con le tabelle degli utenti e dei comandi per l'alphabot
+- Alphabot.py, la libreria con tutti i metodi necessari per il funzionamento dell'alphabot
+- README, una copia in .txt della relazione che era stata fatta durante l'anno, sullo svolgimento
+  delle esercitazioni
+
+

@@ -16,7 +16,7 @@ primo_trimestre:
   all'alphabot
 
 pentamestre:
-2 progetti completi, in aggiunta, 4 versioni precedenti
+3 progetti completi, in aggiunta, 4 versioni precedenti
 
 - progettoMovimentoAlphabotV1, versione finale del primo progetto per il movimento dell'alphabot 
   che richiedeva l'uso di una webApp, in questo caso si testano solo i print
@@ -25,6 +25,9 @@ pentamestre:
   che richiedeva: il movimento del robot tramite una webApp, la gestione dei comandi tramite un
   database, il login e la registrazione di ogni utente che può comandare l'alphabot e
   l'implementazione dei sensori, visualizzati in un'altra pagina differente da quella dei controlli
+
+- alphabotLoginDBSE_completo_gara_v2, versione finale del progetto per il movimento dell'alphabot
+  adattato per la gara
 
 le versioni precedenti: progettoMovimentoAlphabotV0, alphabotConLoginV0, alphabotLoginDatabaseV0, 
 AlphabotLoginDbSensoriV0

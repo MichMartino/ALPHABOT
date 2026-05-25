@@ -16,7 +16,7 @@ primo_trimestre:
   all'alphabot
 
 pentamestre:
-3 progetti completi, in aggiunta, 4 versioni precedenti
+3 progetti completi, in aggiunta, 4 versioni precedenti + progetti IOT alphabot
 
 - progettoMovimentoAlphabotV1, versione finale del primo progetto per il movimento dell'alphabot 
   che richiedeva l'uso di una webApp, in questo caso si testano solo i print
@@ -28,6 +28,9 @@ pentamestre:
 
 - alphabotLoginDBSE_completo_gara_v2, versione finale del progetto per il movimento dell'alphabot
   adattato per la gara
+
+- iot_primo_alphabot, prima versione per progetti IoT che usano thingsBoard insieme all'alphabot. 
+  Questo progetto visualizza la telemetria di un sensore, quello destro, da thingsboard, senza widget.
 
 le versioni precedenti: progettoMovimentoAlphabotV0, alphabotConLoginV0, alphabotLoginDatabaseV0, 
 AlphabotLoginDbSensoriV0
